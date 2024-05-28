@@ -13,8 +13,6 @@ export default function Carrito () {
     return (
       
       <section>
-        <h1 className='title'>Fake Store</h1>,
-        <h2 className='carrito'>Carrito</h2>
         <ul>
           {prodCar.map(producto => (
             <li key={producto.id}>
