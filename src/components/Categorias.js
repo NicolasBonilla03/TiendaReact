@@ -23,9 +23,7 @@ export default function Categorias( ) {
       const fetchProdCat = () => {
   if (filtcategoria) {
     fetch(`https://fakestoreapi.com/products/category/${filtcategoria}`)
-      .then(response => {
-        return response.json();
-      })
+      .then(response => response.json())
       .then(data => {
         setProductos(data);
       });
