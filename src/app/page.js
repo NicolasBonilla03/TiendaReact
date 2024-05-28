@@ -5,12 +5,15 @@ import PagCar from '../pages/PagCarrito';
 
 
 export default function App(){
+  function refreshPage(){
+    window.parent.location=window.parent.location.href;
+  }
 
   return (
     <Router>
       <section>
         <nav>
-          <Link to="/">Inicio</Link>
+          <Link to="/" onClick={()=>refreshPage()}>Inicio</Link>
           <Link to="/carro"><img src='https://www.adeshoras.com/Content/Iconos/CarritoBlanco.png' className='carritoimg'></img></Link>
         </nav>
         <Routes>
