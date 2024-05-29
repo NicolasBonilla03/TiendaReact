@@ -6,7 +6,7 @@ import PagCar from '../pages/PagCarrito';
 
 export default function App(){
   function refreshPage(){
-    location.reload();
+    location.href='http://localhost:3000/';
   }
 
   return (
