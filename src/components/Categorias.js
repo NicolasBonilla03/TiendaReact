@@ -64,9 +64,9 @@ export default function Categorias( ) {
         <ul>
           {productos.map(producto => (
             <li key={producto.id}>
-              <h2 className='producto'>Producto: {producto.title}</h2>
-              <h3>Precio: {producto.price}$</h3>
-              <h3>Descripcion: {producto.description}</h3>
+              <h2 className='tienda'>Producto: {producto.title}</h2>
+              <h3 className='tienda tienda-precio'>Precio: {producto.price}$</h3>
+              <h3 className='tienda tienda-descripcion'>Descripcion: {producto.description}</h3>
               <img src={producto.image} alt={producto.title} />
               <button onClick={() => carrito(producto)}>Añadir al carrito</button>
              

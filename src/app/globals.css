@@ -8,6 +8,37 @@ html{
   background-color: black;
 }
 
+.titulo{
+  margin-bottom: 10px;
+  margin-top: auto;
+  border: 10px;
+  border-color: #002349;
+  
+
+
+}
+.titulo-producto{
+  color: #6caafb;
+  font-size: 85px;
+  margin: 30px;
+}
+.titulo-carrito{
+  color: white;
+}
+.tienda{
+  color: #fff;
+  text-shadow: 10px 5px 5px #000000;
+  
+}
+
+.tienda-precio{
+  word-spacing: normal;
+  font-size: 30px;
+}
+.tienda-descripcion{
+  font-size: 15px;
+}
+
 h3{
   color: white;
 }
@@ -19,12 +50,7 @@ h3{
 .carrito, .prodcar, .precar{
   color: white;
 }
-.title {
-  font-size: 85px;
-  color: #6caafb;
-  margin-bottom: 20px;
-  margin-top: auto;
-}
+
 
 .producto {
   color: #ffffff;
